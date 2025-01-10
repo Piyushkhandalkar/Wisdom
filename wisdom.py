@@ -114,5 +114,5 @@ async def on_ready():
 # Run the bot with your token
 bot.run("token")
 
-#this bot is made by piyush
+#this bot is made by piyush.
 
