@@ -86,7 +86,7 @@ async def gquote(ctx):
         await ctx.send("This server has not set up a channel for quotes.")
 
 
-# Command to set the channel ID for the server (only admins can use this)
+# Command to set the channel ID for the server  so that only admins can use the command
 @bot.command()
 async def set_channel(ctx, channel: discord.TextChannel):
     if not ctx.author.guild_permissions.administrator:
@@ -110,8 +110,6 @@ async def on_ready():
     # Send a welcome message (the bot needs a channel to send the message)
     # We won't automatically send a welcome message since the channel isn't set yet.
 
-
-# Run the bot with your token
 bot.run("token")
 
 #this bot is made by piyush.
