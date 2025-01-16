@@ -6,7 +6,7 @@ from apscheduler.triggers.interval import IntervalTrigger
 from discord.ext import commands
 
 
-# Load quotes from CSV file
+# Load quotes from CSV file which is from  kaggle 
 def load_quotes_from_csv():
     quotes = []
     try:
